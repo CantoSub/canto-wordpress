@@ -1,0 +1,42 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+// define colors
+$color-primary: #00ffab;
+$color-secondary: #14c38e;
+$color-tertiary: #b8f1b0;
+$color-quaternary: #e3fcbf;
+
+.wp-block-create-block-canto-the-wordpress {
+	background: white;
+	padding: 0.5rem;
+}
+
+// wallet
+.wp-block-create-block-canto-the-wordpress .wallet {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-color: $color-secondary;
+	border-width: 0.1rem;
+	border-radius: 50rem;
+	padding: 1rem;
+
+	&__title {
+		color: white;
+		font-size: 1.5rem;
+		font-weight: 700;
+		margin: 0;
+	}
+
+	&__address {
+		color: black;
+		font-size: 1rem;
+		font-weight: 400;
+		margin: 0;
+	}
+}

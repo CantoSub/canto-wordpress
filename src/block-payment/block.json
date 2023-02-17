@@ -1,0 +1,26 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "create-block/canto-the-wordpress",
+	"version": "0.1.0",
+	"title": "Canto Sub Donate Button",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "A block to display a donate button, subcribers can click to donate to the author.",
+	"supports": {
+		"html": false
+	},
+	"attributes": {
+		"content": {
+			"type": "string"
+		},
+		"title": {
+			"type": "string"
+		}
+	},
+	"textdomain": "canto-the-wordpress",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"script": ["file:./view.js"]
+}
